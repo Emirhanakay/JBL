@@ -1,0 +1,50 @@
+.model{
+    &-container{
+        padding-top: 32px;
+    //    border: 5px solid red;
+     
+    }
+    .section-title{
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    &-content{
+        position: relative;
+        justify-self: center;
+    }
+    &-img{
+        width: 280px;
+    }
+    &-tooltip{
+        position: absolute;
+        &-text{
+            background-color: var(--gradient-color);
+            color: white;
+            white-space: nowrap;
+            padding: 6px 12px;
+            border-radius: 64px;
+            opacity: 0.7;
+            position: absolute;
+            background: var(--gradient-color);
+            // border: 5px solid green;
+            transform: translate(75px,-55px);
+        }
+        &-1{
+            top: 88px;
+            left: 80px;
+        }
+        &-2{
+            top: 16px;
+            right: 35px;
+        }
+        &-3{
+            bottom: 100px; ;
+            right: 150px;
+        }
+        &-4{
+            bottom: 150px;
+            left: 120px;
+        }
+    }
+}

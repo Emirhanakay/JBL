@@ -1,0 +1,34 @@
+.favorite{
+    text-align: center;
+    padding: 10px 40px;
+    &-card{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        
+        div{
+            display: flex;
+            span{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                
+            }
+        }
+        img{
+            width: 200px;
+
+    }
+}
+}
+
+@media screen and (max-width:850px) {
+    .favorite{
+        &-card{
+            div{
+                flex-direction: column;
+            }
+    }
+}
+}
